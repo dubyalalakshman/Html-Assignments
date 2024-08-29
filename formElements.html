@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Elements</title>
+    </head>
+    <body>
+        <form>
+            <select name="" id="" multiple>
+                <optgroup label="Basic needs">
+                <option value="">mobiles</option>
+                <option value="">laptops</option>
+                <option value="">kitchen</option>
+                <option value="">lab</option>
+                </optgroup>
+                <optgroup label="veg items">
+                    <option value="">carrot</option>
+                    <option value="">beetroot</option>
+                    <option value="">apple</option>
+                    <option value="">banana</option>
+                </optgroup>
+            </select><br>
+
+            <!--data list provides predefined options like suggestions-->
+            <form>
+                <input list="dataname">
+                <datalist id="dataname">
+                    <option value="ind">ind</option>
+                    <option value="korea">korea</option>
+                    <option value="china">china</option>
+                </datalist><br>
+                <!--fieldset and legend-->
+                <form>
+                    <fieldset>
+                        <legend>personal info</legend>
+                        <input type="text" placeholder="Enter ur name"><br>
+                        <input type="email" placeholder="Enter ur mail"><br>
+                        <input type="tel" placeholder="Enter ur no."><br>
+                    </fieldset>
+                </form>
+            </form>
+        </form>
+        <!--form controls maxlenght,cols,rows-->
+        <form>
+            <textarea name="" id="" cols="20" rows="20" maxlength="10"></textarea>
+        </form>
+        <form>
+            <input type="number" min="1" max="10" step="2"><br>
+            <input type="text" required><br>
+            <input  type="text" value="terms and conditions" readonly><br>
+            <input  type="text" value="hyderabad" disabled><br>
+            password:<input type="password" pattern="aA1@"><br>
+            <input type="submit">
+        </form>
+
+    </body>
+</html>
